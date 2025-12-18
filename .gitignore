@@ -1,0 +1,352 @@
+------------------------------------------------------
+DATASET FILES - IGNORE SEMUA
+------------------------------------------------------
+data/*
+!data/.gitkeep
+
+Semua jenis dataset
+*.csv
+*.arff
+*.xlsx
+*.xls
+*.json
+*.txt
+*.tsv
+*.zip
+*.gz
+*.rar
+*.tar
+*.7z
+
+Dataset audio
+*.wav
+*.mp3
+*.ogg
+*.flac
+
+# Dataset gambar
+# *.jpg
+# *.jpeg
+# *.png
+# *.gif
+# *.bmp
+
+Dataset parkinsons spesifik
+parkinsons.data
+parkinsons.csv
+
+Folder dataset
+datasets/
+downloads/
+raw_data/
+processed_data/
+external_data/
+temp_data/
+
+------------------------------------------------------
+MODEL FILES - IGNORE SEMUA KECUALI .gitkeep
+------------------------------------------------------
+# models/*
+# !models/.gitkeep
+
+# File model spesifik
+# *.pkl
+# *.joblib
+# *.h5
+# *.hdf5
+# *.pth
+# *.pt
+# *.model
+# *.sav
+
+Checkpoint model
+checkpoints/
+*.ckpt
+*.index
+.data
+
+TensorBoard logs
+tensorboard/
+logs/
+runs/
+
+------------------------------------------------------
+PYTHON & JUPYTER
+------------------------------------------------------
+pycache/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+Pyre type checker
+.pyre/
+
+PyCharm
+.idea/
+*.iml
+
+VS Code
+.vscode/
+
+------------------------------------------------------
+VIRTUAL ENVIRONMENT
+------------------------------------------------------
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+pythonenv*
+.venv/
+
+Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+Python virtual environment
+.venv
+venv/
+env/
+ENV/
+
+Conda
+conda/
+.conda/
+conda-*
+
+Pipenv
+Pipfile.lock
+
+Poetry
+poetry.lock
+
+------------------------------------------------------
+LOGS & CACHE
+------------------------------------------------------
+Logs
+logs/
+.log
+npm-debug.log
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+Cache
+.cache/
+*.cache
+
+OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+------------------------------------------------------
+OUTPUT & TEMP FILES
+------------------------------------------------------
+Output files dari training
+output/
+results/
+experiments/
+predictions/
+
+Temporary files
+temp/
+tmp/
+*.tmp
+*.temp
+
+Plot outputs (bisa digenerate ulang)
+*.png
+*.pdf
+*.svg
+*.eps
+
+Report files (bisa digenerate ulang)
+report.pdf
+report.docx
+*.html
+
+------------------------------------------------------
+PROJECT SPESIFIK
+------------------------------------------------------
+Environment file untuk Colab/Local
+colab_env.txt
+local_env.txt
+
+File besar yang di-generate
+*.pkl
+*.h5
+*.joblib
+
+File requirements yang di-generate otomatis
+requirements_generated.txt
+
+File konfigurasi lokal
+config_local.py
+settings_local.py
+
+------------------------------------------------------
+NOTEBOOK OUTPUT CELLS
+------------------------------------------------------
+Output cells dari notebook (bisa re-run)
+results/
+
+------------------------------------------------------
+SYSTEM FILES
+------------------------------------------------------
+Windows
+[Dd]esktop.ini
+Thumbs.db
+
+Linux
+*~
+
+macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+------------------------------------------------------
+TEST & COVERAGE
+------------------------------------------------------
+Testing
+.coverage
+.coverage.*
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+JUnit
+junit.xml
+test-reports/
+
+------------------------------------------------------
+DOCUMENTATION
+------------------------------------------------------
+Sphinx
+docs/_build/
+
+MkDocs
+site/
+
+------------------------------------------------------
+EXCEPTIONS - FILE YANG BOLEH DI-COMMIT
+------------------------------------------------------
+Keep folder structure tapi ignore isinya
+!.gitkeep
+
+File konfigurasi project
+!requirements.txt
+!setup.py
+!pyproject.toml
+!README.md
+!LICENSE
+
+Source code
+!src/
+src/*.py
+!src/init.py
+
+Notebook analysis
+!notebooks/
+notebooks/*.ipynb
+
+File dokumentasi
+!docs/
+!*.md
+
+File konfigurasi
+!.yml
+!.yaml
+!config.py
+
+------------------------------------------------------
+CUSTOM IGNORE UNTUK PROJECT INI
+------------------------------------------------------
+Ignore dataset parkinsons
+/parkinsons.data
+/content/parkinsons.data
+
+Ignore model files yang besar
+*.pkl
+*.h5
+*.joblib
+
+Ignore file hasil training
+training_history.png
+model_comparison.png
+roc_curves.png
+
+Ignore file hasil prediction
+predictions.csv
+results.json
+
+Ignore cache dari library
+.cache/
+pycache/
+
+------------------------------------------------------
+TAMBAHAN UNTUK COLAB
+------------------------------------------------------
+File Colab
+sample_data/
+drive/
+
+File mount Google Drive
+gdrive/
+
+Session files
+*.ipynb
+*.ipynb#
+
+Runtime files
+/content/
+/mnt/
+
+------------------------------------------------------
+END OF .gitignore
+------------------------------------------------------
